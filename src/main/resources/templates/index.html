@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html xmlns:sec="http://www.thymeleaf.org/extras/spring-security"
+	xmlns:th="http://www.thymeleaf.org" lang="en">
+	
+
+<!--/*/ <th:block th:include="fragments/header :: head"></th:block> /*/-->
+
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\John\Desktop\MyPortfolio\Images\logo.JPG" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!---Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <Strong> John Haney</Strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img src="C:\Users\John\Desktop\MyPortfolio\Images\Haney_John.JPG" alt="a picture of John Haney"
+            class="intro__img">
+    </section>
+
+    <!---My Services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Web Development</h3>
+                <p>here is a place holder for the text to be added in later
+                    the This course will teach you to build and deploy a neat portfolio for yourself. Perfect to
+                    showcase your skills and experience to potential employers. You also get $100 in free credits from
+                    DigitalOcean!
+                </p>
+            </div>
+            <!---/ service-->
+
+            <div class="service">
+                <h3>Data Analitics</h3>
+                <p>here is a place holder for the text to be added in later
+                    the This course will teach you to build and deploy a neat portfolio for yourself. Perfect to
+                    showcase your skills and experience to potential employers. You also get $100 in free credits from
+                    DigitalOcean!</p>
+            </div>
+            <!---/ service-->
+
+            <div class="service">
+                <h3>Machine Learning</h3>
+                <p>here is a place holder for the text to be added in later
+                    the This course will teach you to build and deploy a neat portfolio for yourself. Perfect to
+                    showcase your skills and experience to potential employers. You also get $100 in free credits from
+                    DigitalOcean!</p>
+            </div>
+            <!---/ service-->
+        </div>
+        <!--/ services-->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!--About Me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">
+            here is a place holder for the text to be added in later
+        </p>
+
+        <div class="about--me__body">
+            <p>There are few things in life I enjoy more than a challenge and helping others.</p>
+            <p>have to get to the end before the whole picture becomes clear, our music theory story is still unfolding,
+                too. All shall be revealed soon, so keep reading! Lastly, you’ll get the best results from reading this
+                book cover to cover, and then repeating that until it’s all soaked in. I’ve been told that using the
+                book as a pillow while you’re sleeping also helps this osmosis. (Disclaimer: please don’t sue me if you
+                sleep on your e-reader and the screen cracks.)</p>
+        </div>
+
+        <img src="C:\Users\John\Desktop\MyPortfolio\Images\temp_profile_image3666821784009153105.JPG"
+            alt="Different image of headshot John" class="about-me__img">
+    </section>
+
+    <!---My Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A sampling of my projects</p>
+
+        <div class="portfolio">
+            <!--Portfolio item 01-->
+            <a href="#" class="portfolio__item">
+                <img src="C:\Users\John\Desktop\MyPortfolio\Images\portfolio-01.jpg" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 02-->
+            <a href="#" class="portfolio__item">
+                <img src="C:\Users\John\Desktop\MyPortfolio\Images\portfolio-02.jpg" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 03-->
+            <a href="#" class="portfolio__item">
+                <img src="C:\Users\John\Desktop\MyPortfolio\Images\portfolio-03.jpg" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 04-->
+            <a href="#" class="portfolio__item">
+                <img src="C:\Users\John\Desktop\MyPortfolio\Images\portfolio-04.jpg" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 05-->
+            <a href="#" class="portfolio__item">
+                <img src="C:\Users\John\Desktop\MyPortfolio\Images\portfolio-05.jpg" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 06-->
+            <a href="#" class="portfolio__item">
+                <img src="C:\Users\John\Desktop\MyPortfolio\Images\portfolio-06.jpg" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 01-->
+            <a href="#" class="portfolio__item">
+                <img src="C:\Users\John\Desktop\MyPortfolio\Images\portfolio-01.jpg" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 07-->
+            <a href="#" class="portfolio__item">
+                <img src="C:\Users\John\Desktop\MyPortfolio\Images\portfolio-07.jpg" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 08-->
+            <a href="#" class="portfolio__item">
+                <img src="C:\Users\John\Desktop\MyPortfolio\Images\portfolio-08.jpg" alt="" class="portfolio__img">
+            </a>
+            <!--Portfolio item 09-->
+            <a href="#" class="portfolio__item">
+                <img src="C:\Users\John\Desktop\MyPortfolio\Images\portfolio-09.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <!--email address-->
+        <a href="mailto:dongyongkim8@gmail.com" class="footer-link">dongyongkim8@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/john-haney-280121140/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/dongyongkim603">
+                    <i class="fab fa-github"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.facebook.com/john.henay/">
+                    <i class="fab fa-facebook-square"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
